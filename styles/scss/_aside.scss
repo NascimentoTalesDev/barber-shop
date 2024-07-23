@@ -1,0 +1,56 @@
+#aside { 
+    width: 264px;
+    border-radius: 20px;
+    @include background-aside;
+    padding: 22px;
+
+    #logo-container{
+        text-align: center; 
+        margin-bottom: 20px;
+        #logo{
+            color: aliceblue;
+            font-size: 2rem;
+            font-size: x-large;
+            font-weight: bold;
+        }
+    }
+    .line{
+        width: 100%;
+        height: 2px;
+        @include background-line;
+    }
+    #aside-items{
+        margin-top: 20px;
+        ul{
+            padding-left: 0;
+            li{
+                font-size: 1.5rem;
+                border-radius: 15px;
+                .aside-item{
+                    border-radius: 15px;
+                    color: $white;
+                    padding: 10px 0 10px 16px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    font-weight: 400;
+                    i{
+                        padding: 8px;
+                        background-color: $blue;
+                        border-radius: 12px;
+                        margin-right: 10px;
+                    }
+                }
+                &:hover{
+                    background: $active;
+                }
+            }
+        }
+    }
+}
+
+.active{
+    background: $active;
+    font-weight: 500 !important;
+}

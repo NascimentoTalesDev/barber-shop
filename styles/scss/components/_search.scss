@@ -1,0 +1,40 @@
+.search{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+
+    .form{
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 38px;
+        overflow: hidden;
+        input{
+            font-size: 1.3rem;
+            height: 100%;
+            width: 100%;
+            outline: none;
+            border: none;
+            color: $white;
+            padding: 0px 10px;
+            background-color: transparent;
+        }
+        button{
+            border: none;
+            font-size: 1.3rem;
+            height: 100%;
+            color: $white;
+            background-color: transparent;
+            transition: 300ms;
+            padding: 0px 20px;
+            @include background-aside;
+            cursor: pointer;
+            &:hover{
+                @include background-body;
+            }
+        }
+    }
+}

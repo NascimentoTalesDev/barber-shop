@@ -1,0 +1,28 @@
+$primary : #060B26;
+$active : #1A1F37; 
+$blue : #0075FF;
+$white : #FFF;
+
+@mixin background-body() {
+    background: rgb(15,18,59);
+    background: linear-gradient(90deg, rgba(15,18,59,1) 0%, rgba(9,13,46,1) 59%, rgba(2,5,21,1) 100%);
+}
+
+@mixin scrollbar() {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(15,18,59,1) rgba(2,5,21,1);
+}
+
+@mixin background-aside() {
+    background: rgb(6,11,38);
+    background: linear-gradient(163deg, rgba(6,11,38,1) 0%, rgba(6,11,38,1) 73%, rgba(9,13,46,0) 100%);
+}
+@mixin background-line() {
+    background: rgb(224,225,226);
+    background: linear-gradient(163deg, rgba(224,225,226,0) 0%, rgba(224,225,226,1) 50%, rgba(224,225,226,0.16) 100%);
+}
+
+@mixin background-top-bottom() {
+    background: rgb(6,11,40);
+    background: linear-gradient(45deg, rgba(6,11,40,0.74) 0%, rgba(10,14,35,0.71) 100%);
+}

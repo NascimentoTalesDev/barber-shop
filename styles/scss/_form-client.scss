@@ -1,0 +1,42 @@
+.form-client { 
+    width: 100%;
+    max-width: 400px;   
+    margin: 30px auto;
+
+    div{
+        label{
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        input, select{
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 1.5rem;
+            padding: 8px;
+            background-color: transparent;
+            border: 1px solid $white;
+        }
+    }
+    .btn-submit{
+        margin-top: 1rem;
+
+        button{
+            border: 1px solid $white;
+            width: 100%;
+            max-width: 150px;
+            padding: 8px;
+            border-radius: 5px;
+            margin-left: auto;
+            font-size: 1.3rem;
+            transition: 300ms;
+            @include background-aside;
+            cursor: pointer;
+            &:hover{
+                @include background-body;
+            }
+        }
+    }
+
+    
+}
