@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-<b>This application is a admin Barber Shop!</b>
+<b>This application is an admin Barber Shop!</b>
 </p>
 <div align="center" >
   <div>
